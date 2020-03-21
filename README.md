@@ -1,10 +1,10 @@
 # portfolio
 
-> my portfolio
+> my portfolio site: https://portfolio-masaki.appspot.com/
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
