@@ -17,18 +17,39 @@
       </b-card>
     </div>
     <div id="sec1" class="basic_profile section">
-      <div class="row">
+      <!-- <div class="row">
         <h2 class="section_title">About Me</h2>
-      </div>
+      </div> -->
       <div class="row">
+        <div class="col-md-3 col-3"></div>
+        <div class="col-md-6 col-6 text-left">
+          <h4 class="my_name">Hiroaki MASAKI</h4>
+        </div>
+        <div class="col-md-3 col-3"></div>
+      </div>
+      <!-- <div class="row">
         <div class="col-md-5 col-5 text-right font-weight-bold">Name:</div>
         <div class="col-md-5 col-5 text-left">Hiroaki MASAKI</div>
       </div>
       <div class="row">
         <div class="col-md-5 col-5 text-right font-weight-bold"></div>
         <div class="col-md-5 col-5 text-left">正木 博明</div>
-      </div>
+      </div> -->
+
       <div class="row">
+        <div class="col-md-3 col-3"></div>
+        <div class="col-md-6 col-6 text-left">
+          <p>
+            I'm <b>Hiroaki Masaki(正木 博明)</b>. My research interst lies in
+            Human-Computer Interaction(HCI). More specifically, my research
+            focuses on "nugge", well studied in behavioral economics, and mobile
+            health. In my spare time, I like listening to radio and manzai,
+            watching baseball, participating to marathon, and eating curry.
+          </p>
+        </div>
+        <div class="col-md-3 col-3"></div>
+      </div>
+      <!-- <div class="row">
         <div class="col-md-5 col-5 text-right font-weight-bold">
           Research interests:
         </div>
@@ -36,18 +57,17 @@
           Human-Computer Interaction(HCI),
           <br />especially "nudge" and mobile health.
         </div>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-md-12 col-12 text-center">
-          <div class="inline-block" v-for="item in items" key="item.id">
+          <div class="inline-block" v-for="item in items" :key="item.id">
             <a :href="item.url" target="_blank">
               <font-awesome-icon :icon="item.icon" style="font-size: 30px" />
             </a>
           </div>
         </div>
       </div>
-      <!-- <p>Add linkedin, github, instagram here</p>
-      <p>Update 修論系contents</p>-->
+      <!-- <p>Update 修論系contents</p> -->
     </div>
 
     <div id="sec2" class="experience_research section">
@@ -269,6 +289,12 @@ export default {
 .section_title {
   border-bottom: double 5px #47a89c;
   margin: auto;
+  margin-bottom: 15px;
+}
+
+.my_name {
+  margin: auto;
+  margin-bottom: 25px;
 }
 
 .inline-block {

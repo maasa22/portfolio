@@ -20,7 +20,7 @@ export default {
     return {
       index: "#",
       items: [
-        { title: "About Me", path: "#sec1" },
+        // { title: "About Me", path: "#sec1" },
         { title: "Experience", path: "#sec2" },
         { title: "Publications", path: "#sec3" },
         { title: "Awards", path: "#sec4" }
