@@ -1,6 +1,6 @@
 # portfolio
 
-> my portfolio site: https://portfolio-masaki.appspot.com/
+> my portfolio site:　https://portfolio-masaki.appspot.com/
 
 ## Build Setup
 
