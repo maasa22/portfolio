@@ -35,7 +35,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ["bootstrap-vue/nuxt"],
+  modules: ["bootstrap-vue/nuxt", "nuxt-fontawesome"],
 
   /*
    ** Build configuration
@@ -45,5 +45,21 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  fontawesome: {
+    imports: [
+      {
+        set: "@fortawesome/free-solid-svg-icons",
+        icons: ["fas"]
+      },
+      {
+        set: "@fortawesome/free-brands-svg-icons",
+        icons: ["fab"]
+      },
+      {
+        set: "@fortawesome/free-regular-svg-icons",
+        icons: ["far"]
+      }
+    ]
   }
 };

@@ -18,25 +18,32 @@
     </div>
     <div id="sec1" class="basic_profile section">
       <div class="row">
-        <div class="col-md-12 col-12 text-center">
-          <h2 class="section_title">About Me</h2>
-        </div>
+        <h2 class="section_title">About Me</h2>
       </div>
       <div class="row">
         <div class="col-md-5 col-5 text-right font-weight-bold">Name:</div>
+        <div class="col-md-5 col-5 text-left">Hiroaki MASAKI</div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 col-5 text-right font-weight-bold"></div>
         <div class="col-md-5 col-5 text-left">正木 博明</div>
       </div>
       <div class="row">
-        <div class="col-md-5 col-5 text-right font-weight-bold">Research interests:</div>
+        <div class="col-md-5 col-5 text-right font-weight-bold">
+          Research interests:
+        </div>
         <div class="col-md-5 col-5 text-left">
           Human-Computer Interaction(HCI),
           <br />especially "nudge" and mobile health.
         </div>
       </div>
       <div class="row">
-        <div class="col-md-5 col-5 text-right font-weight-bold">Github:</div>
-        <div class="col-md-5 col-5 text-left">
-          <a class="a_tag" href="https://github.com/maasa22" target="_blank">maasa22</a>
+        <div class="col-md-12 col-12 text-center">
+          <div class="inline-block" v-for="item in items" key="item.id">
+            <a :href="item.url" target="_blank">
+              <font-awesome-icon :icon="item.icon" style="font-size: 30px" />
+            </a>
+          </div>
         </div>
       </div>
       <!-- <p>Add linkedin, github, instagram here</p>
@@ -45,9 +52,7 @@
 
     <div id="sec2" class="experience_research section">
       <div class="row">
-        <div class="col-md-12 col-12 text-center">
-          <h2 class="section_title">Experience</h2>
-        </div>
+        <h2 class="section_title">Experience</h2>
       </div>
       <div class="row">
         <div class="col-md-12 col-12 text-center">
@@ -61,9 +66,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 col-3 text-right font-weight-bold">Affiliation:</div>
+        <div class="col-md-3 col-3 text-right font-weight-bold">
+          Affiliation:
+        </div>
         <div class="col-md-9 col-9 text-left">
-          <p>東京大学大学院 学際情報学府 先端表現情報学コース 矢谷研究室(IIS Lab)</p>
+          <p>
+            東京大学大学院 学際情報学府 先端表現情報学コース 矢谷研究室(IIS Lab)
+          </p>
         </div>
       </div>
       <div class="row">
@@ -73,14 +82,14 @@
             A Study on Designs of Privacy/Safety-related Nudges for Adolescent
             SNS Users
             <br />(若年層SNSユーザに対するプライバシー・安全に関するナッジデザインの検証)
-            <a
-              href="https://iis-lab.org/research/sns-nudge/"
-              target="_blank"
-            >[project page]</a>
+            <a href="https://iis-lab.org/research/sns-nudge/" target="_blank"
+              >[project page]</a
+            >
             <a
               href="https://www.t.u-tokyo.ac.jp/foe/press/setnws_202003061126246287401367.html"
               target="_blank"
-            >[press release]</a>
+              >[press release]</a
+            >
           </p>
         </div>
       </div>
@@ -97,7 +106,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 col-3 text-right font-weight-bold">Affiliation:</div>
+        <div class="col-md-3 col-3 text-right font-weight-bold">
+          Affiliation:
+        </div>
         <div class="col-md-9 col-9 text-left">
           <p>株式会社 リクルート</p>
         </div>
@@ -121,7 +132,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 col-3 text-right font-weight-bold">Affiliation:</div>
+        <div class="col-md-3 col-3 text-right font-weight-bold">
+          Affiliation:
+        </div>
         <div class="col-md-9 col-9 text-left">
           <p>東京大学 工学部 電子情報工学科 矢谷研究室(IIS Lab)</p>
         </div>
@@ -136,9 +149,7 @@
 
     <div id="sec3" class="publications section">
       <div class="row">
-        <div class="col-md-12 col-12 text-center">
-          <h2 class="section_title">Publications</h2>
-        </div>
+        <h2 class="section_title">Publications</h2>
       </div>
       <h5>International Conference (peer-reviewed)</h5>
       <ul>
@@ -161,38 +172,41 @@
           <a
             href="https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=202563&item_no=1"
             target="_blank"
-          >[publisher page]</a>
+            >[publisher page]</a
+          >
         </li>
       </ul>
     </div>
 
     <div id="sec4" class="awards section">
       <div class="row">
-        <div class="col-md-12 col-12 text-center">
-          <h2 class="section_title">Awards</h2>
-        </div>
+        <h2 class="section_title">Awards</h2>
       </div>
       <ul>
         <li>
           <div>
             <h6>
-              Honorable Mention Award at CHI 2020 (ACM CHI Conference on Human Factors in Computing Systems)
+              Honorable Mention Award at CHI 2020 (ACM CHI Conference on Human
+              Factors in Computing Systems)
               <a
                 href="https://chi2020.acm.org/for-attendees/chi-2020-best-papers-honourable-mentions/"
                 target="_blank"
-              >[award page]</a>
+                >[award page]</a
+              >
             </h6>
-            <p>(CHI 2020 はヒューマン・コンピュータ・インタラクション分野最高峰の国際会議であり，投稿された論文の中から特に優れた上位5%にこの賞が送られる．)</p>
+            <p>
+              (CHI 2020
+              はヒューマン・コンピュータ・インタラクション分野最高峰の国際会議であり，投稿された論文の中から特に優れた上位5%にこの賞が送られる．)
+            </p>
           </div>
         </li>
         <li>
           <div>
             <h6>
               情報処理学会第186回HCI研究会 学生奨励賞
-              <a
-                href="http://www.sighci.jp/contents/page/news"
-                target="_blank"
-              >[award page]</a>
+              <a href="http://www.sighci.jp/contents/page/news" target="_blank"
+                >[award page]</a
+              >
             </h6>
           </div>
         </li>
@@ -203,11 +217,37 @@
 
 <script>
 import Navbar from "~/components/Navbar.vue";
-
 export default {
   data() {
     return {
-      himeji_img: require("../assets/himeji_castle.jpg")
+      himeji_img: require("../assets/himeji_castle.jpg"),
+      items: [
+        {
+          id: 1,
+          url: "https://github.com/maasa22",
+          icon: ["fab", "github"]
+        },
+        {
+          id: 2,
+          url: "https://www.linkedin.com/in/hiroaki-masaki-3077bb141/",
+          icon: ["fab", "linkedin"]
+        },
+        {
+          id: 3,
+          url: "https://www.facebook.com/hiroaki.msk",
+          icon: ["fab", "facebook"]
+        },
+        {
+          id: 4,
+          url: "http://instagram.com/maasac22",
+          icon: ["fab", "instagram"]
+        }
+        // {
+        //   id: 5,
+        //   url: "#",
+        //   icon: ["far", "envelope"]
+        // }
+      ]
     };
   },
   components: {
@@ -216,14 +256,24 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .section {
   /* u, r, d, l */
   padding: 60px 30px 0px 30px;
 }
 
+/* .icons {
+  margin: auto;
+} */
+
 .section_title {
   border-bottom: double 5px #47a89c;
+  margin: auto;
+}
+
+.inline-block {
+  display: inline-block; /* インラインブロック要素にする */
+  padding: 20px 6px 0px 6px;
 }
 
 .a_tag {
