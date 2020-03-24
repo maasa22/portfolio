@@ -12,7 +12,7 @@
       >
         <b-card-text>
           Portfoio of h.msk.
-          <br />Upadated : 2020/3/22
+          <br />Upadated : 2020/3/23
         </b-card-text>
       </b-card>
     </div>
@@ -29,7 +29,7 @@
         <div class="col-md-6 col-6 text-left">
           <p>
             I'm
-            <b>Hiroaki Masaki(正木 博明)</b>. My research interst lies in
+            <b>Hiroaki Masaki(正木 博明)</b>. My research interest lies in
             Human-Computer Interaction(HCI). More specifically, my research
             focuses on "nugge", well studied in behavioral economics, and mobile
             health. In my spare time, I like listening to radio and manzai,
@@ -47,7 +47,6 @@
           </div>
         </div>
       </div>
-      <!-- <p>Update 修論系contents</p> -->
     </div>
 
     <div id="sec2" class="experience_research section">
@@ -79,12 +78,9 @@
         <div class="col-md-9 col-9 text-left">
           <p>
             A Study on Designs of Privacy/Safety-related Nudges for Adolescent
-            SNS Users
-            <br />(若年層SNSユーザに対するプライバシー・安全に関するナッジデザインの検証)
-            <a
-              href="https://iis-lab.org/research/sns-nudge/"
-              target="_blank"
-            >[project page]</a>
+            SNS Users (若年層SNSユーザに対するプライバシー・安全に関するナッジデザインの検証)
+            <b>優秀修士論文 専攻長賞</b>
+            <a href="https://iis-lab.org/research/sns-nudge/" target="_blank">[project page]</a>
             <a
               href="https://www.t.u-tokyo.ac.jp/foe/press/setnws_202003061126246287401367.html"
               target="_blank"
@@ -194,6 +190,11 @@
               (CHI 2020
               はヒューマン・コンピュータ・インタラクション分野最高峰の国際会議であり，投稿された論文の中から特に優れた上位5%にこの賞が送られる．)
             </p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h6>2019年度 東京大学大学院学生情報学府 優秀修士論文 専攻長賞 [award page]</h6>
           </div>
         </li>
         <li>
