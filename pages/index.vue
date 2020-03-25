@@ -239,12 +239,12 @@ export default {
           id: 4,
           url: "http://instagram.com/maasac22",
           icon: ["fab", "instagram"]
+        },
+        {
+          id: 5,
+          url: "mailto:masaki.hrak@gmail.com",
+          icon: ["far", "envelope"]
         }
-        // {
-        //   id: 5,
-        //   url: "#",
-        //   icon: ["far", "envelope"]
-        // }
       ]
     };
   },
