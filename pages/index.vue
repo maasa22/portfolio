@@ -210,6 +210,20 @@
         </li>
       </ul>
     </div>
+
+    <div id="sec5" class="skill section">
+      <div class="row">
+        <h2 class="section_title">Skill and scores</h2>
+      </div>
+      <ul>
+        <li>Vue.js, HTML, CSS, Python, SQL</li>
+        <!-- <li>Sketch</li> -->
+        <!-- <li>TOEFL: ____</li> -->
+      </ul>
+      <!-- <p>amazon wish list : ____</p> -->
+    </div>
+
+    <footer></footer>
   </div>
 </template>
 
@@ -278,5 +292,11 @@ export default {
 
 .a_tag {
   color: #3090ff;
+}
+
+footer {
+  margin-top: 25px;
+  height: 40px;
+  background-color: rgb(80, 150, 180); /*77,150,174*/
 }
 </style>
