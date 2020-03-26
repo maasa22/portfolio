@@ -297,6 +297,6 @@ export default {
 footer {
   margin-top: 25px;
   height: 40px;
-  background-color: rgb(80, 150, 180); /*77,150,174*/
+  background-color: #17a2b8; /*77,150,174*/
 }
 </style>
