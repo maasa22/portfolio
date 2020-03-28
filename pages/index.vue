@@ -140,95 +140,19 @@
         </div>
       </div>
     </div>
-
-    <div id="sec3" class="publications section">
-      <div class="row">
-        <h2 class="section_title">Publications</h2>
-      </div>
-      <h5>International Conference (peer-reviewed)</h5>
-      <ul>
-        <li>
-          Hiroaki Masaki, Kengo Shibata, Shui Hoshino, Takahiro Ishihama,
-          Nagayuki Saito, and Koji Yatani. Exploring Nudge Designs to Help
-          Adolescent SNS Users Avoid Privacy and Safety Threats. To appear in
-          proceedings of ACM CHI Conference on Human Factors in Computing
-          Systems, 2020.
-          <b>Honorable Mention Award</b>
-          [publisher page]
-        </li>
-      </ul>
-      <h5>Domestic Conference</h5>
-      <ul>
-        <li>
-          正木 博明，柴田 健吾，星野 秀偉，石濵 嵩博，齋藤 長行，矢谷
-          浩司，「SNS上の行動に関する若年層ユーザに対するナッジの効果検証」，情報処理学会第186回HCI研究会．
-          <b>学生奨励賞</b>
-          <a
-            href="https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=202563&item_no=1"
-            target="_blank"
-          >[publisher page]</a>
-        </li>
-      </ul>
-    </div>
-
-    <div id="sec4" class="awards section">
-      <div class="row">
-        <h2 class="section_title">Awards</h2>
-      </div>
-      <ul>
-        <li>
-          <div>
-            <h6>
-              Honorable Mention Award at CHI 2020 (ACM CHI Conference on Human
-              Factors in Computing Systems)
-              <a
-                href="https://chi2020.acm.org/for-attendees/chi-2020-best-papers-honourable-mentions/"
-                target="_blank"
-              >[award page]</a>
-            </h6>
-            <p>
-              (CHI 2020
-              はヒューマン・コンピュータ・インタラクション分野最高峰の国際会議であり，投稿された論文の中から特に優れた上位5%にこの賞が送られる．)
-            </p>
-          </div>
-        </li>
-        <li>
-          <div>
-            <h6>2019年度 東京大学大学院学生情報学府 優秀修士論文 専攻長賞 [award page]</h6>
-          </div>
-        </li>
-        <li>
-          <div>
-            <h6>
-              情報処理学会第186回HCI研究会 学生奨励賞
-              <a
-                href="http://www.sighci.jp/contents/page/news"
-                target="_blank"
-              >[award page]</a>
-            </h6>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <div id="sec5" class="skill section">
-      <div class="row">
-        <h2 class="section_title">Skill and scores</h2>
-      </div>
-      <ul>
-        <li>Vue.js, HTML, CSS, Python, SQL</li>
-        <!-- <li>Sketch</li> -->
-        <!-- <li>TOEFL: ____</li> -->
-      </ul>
-      <!-- <p>amazon wish list : ____</p> -->
-    </div>
-
+    <Publications />
+    <Awards />
+    <!-- <SkillScores /> -->
     <footer></footer>
   </div>
 </template>
 
 <script>
 import Navbar from "~/components/Navbar.vue";
+import Awards from "~/components/Awards.vue";
+import SkillScores from "~/components/SkillScores.vue";
+import Publications from "~/components/Publications.vue";
+
 export default {
   data() {
     return {
@@ -263,12 +187,15 @@ export default {
     };
   },
   components: {
-    Navbar
+    Navbar,
+    Publications,
+    Awards,
+    SkillScores
   }
 };
 </script>
 
-<style scoped>
+<style>
 .section {
   /* upper, right, down, left */
   padding: 60px 30px 0px 30px;
