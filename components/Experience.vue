@@ -11,24 +11,24 @@
         </div>
       </div>
       <div class="row">
-        <div class="profile-index col-md-3 col-3 text-right font-weight-bold">Term:</div>
-        <div class="profile-content col-md-9 col-9 text-left">
+        <div class="profile-index col-md-4 col-4 text-right font-weight-bold">Term:</div>
+        <div class="profile-content col-md-8 col-8 text-left">
           <p>{{experience.term}}</p>
         </div>
       </div>
       <div class="row">
         <!-- <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 text-right font-weight-bold">Affiliation:</div>
         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 text-left">-->
-        <div class="profile-index col-md-3 col-3 text-right font-weight-bold">Affiliation:</div>
-        <div class="profile-content col-md-9 col-9 text-left">
+        <div class="profile-index col-md-4 col-4 text-right font-weight-bold">Affiliation:</div>
+        <div class="profile-content col-md-8 col-8 text-left">
           <p>
             <span v-html="experience.affiliation"></span>
           </p>
         </div>
       </div>
       <div class="row">
-        <div class="profile-index col-md-3 col-3 text-right font-weight-bold">Content:</div>
-        <div class="profile-content col-md-9 col-9 text-left">
+        <div class="profile-index col-md-4 col-4 text-right font-weight-bold">Content:</div>
+        <div class="profile-content col-md-8 col-8 text-left">
           <p>
             <span v-html="experience.content"></span>
           </p>
