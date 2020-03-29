@@ -4,7 +4,7 @@
       <h2 class="section_title">Awards</h2>
     </div>
     <ul>
-      <li v-for="award in awards_list">
+      <li v-for="(award,index) in awards_list" :key="index">
         <div>
           <h6>
             {{award.title}}

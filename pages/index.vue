@@ -9,7 +9,7 @@
       <Awards />
       <!-- <SkillScores /> -->
     </div>
-    <footer></footer>
+    <footer />
   </div>
 </template>
 
