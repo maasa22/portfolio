@@ -3,10 +3,10 @@
     <div class="row">
       <h2 class="section_title">Publications</h2>
     </div>
-    <div v-for="publications in publications_all">
+    <div v-for="(publications, index) in publications_all" :key="index">
       <h5>{{publications.genre}}</h5>
       <ul>
-        <li v-for="pub in publications.publications">
+        <li v-for="(pub,index) in publications.publications" :key="index">
           {{pub.title}}
           <b>{{pub.award}}</b>
           <a v-if="pub.link!=''" :href="pub.link" target="_blank">[publisher page]</a>
