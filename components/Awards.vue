@@ -1,5 +1,5 @@
 <template>
-  <div id="sec4" class="awards section">
+  <div id="Awards" class="awards section">
     <div class="row">
       <h2 class="section_title">Awards</h2>
     </div>

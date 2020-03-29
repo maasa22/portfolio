@@ -1,5 +1,5 @@
 <template>
-  <div id="sec5" class="skill section">
+  <div id="SkillScores" class="skill section">
     <div class="row">
       <h2 class="section_title">Skill and scores</h2>
     </div>
