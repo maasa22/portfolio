@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="profile-index">Content:</div>
+        <div class="profile-index col-md-3 col-3 text-right font-weight-bold">Content:</div>
         <div class="profile-content col-md-9 col-9 text-left">
           <p>
             <span v-html="experience.content"></span>
