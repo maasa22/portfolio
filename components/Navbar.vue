@@ -22,8 +22,8 @@ export default {
       items: [
         { title: "Experience", path: "/#Experience" },
         { title: "Publications", path: "/#Publications" },
-        { title: "Awards", path: "/#Awards" }
-        // { title: "misc", path: "/littlework" }
+        { title: "Awards", path: "/#Awards" },
+        { title: "misc.", path: "/littlework" }
       ]
     };
   }
