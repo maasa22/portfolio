@@ -7,7 +7,7 @@
       <Experience />
       <Publications />
       <Awards />
-      <!-- <SkillScores /> -->
+      <SkillCertificates />
     </div>
     <footer />
   </div>
@@ -20,7 +20,7 @@ import Aboutme from "~/components/Aboutme.vue";
 import Experience from "~/components/Experience.vue";
 import Publications from "~/components/Publications.vue";
 import Awards from "~/components/Awards.vue";
-import SkillScores from "~/components/SkillScores.vue";
+import SkillCertificates from "~/components/SkillCertificates.vue";
 
 export default {
   components: {
@@ -30,7 +30,7 @@ export default {
     Experience,
     Publications,
     Awards,
-    SkillScores
+    SkillCertificates
   }
 };
 </script>
