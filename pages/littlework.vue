@@ -28,7 +28,7 @@
             style="max-width: 20rem;"
             class="mb-2"
           >
-            <b-card-sub-title>glide, no code</b-card-sub-title>
+            <b-card-sub-title>glide, pwa, no code</b-card-sub-title>
             <b-card-text>This app shows a list of my favorite curry restaurants in Jinbocho. This app was built in 1 hour.</b-card-text>
 
             <b-button href="https://curry-jinbo.glideapp.io/" variant="primary">Go to app</b-button>

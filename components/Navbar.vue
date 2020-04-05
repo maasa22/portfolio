@@ -18,7 +18,7 @@
 export default {
   data() {
     return {
-      index: "#",
+      index: "/#",
       items: [
         { title: "Experience", path: "/#Experience" },
         { title: "Publications", path: "/#Publications" },
