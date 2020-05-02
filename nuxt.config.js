@@ -13,10 +13,10 @@ export default {
         name: "description",
         content:
           process.env.npm_package_description ||
-          "A personal web page of Hiroaki Masaki",
-      },
+          "A personal web page of Hiroaki Masaki"
+      }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/h.msk.ico" }],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/h.msk.ico" }]
   },
   /*
    ** Customize the progress-bar color
@@ -33,7 +33,14 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [],
+  buildModules: [
+    [
+      "@nuxtjs/google-analytics",
+      {
+        id: "UA-124241907-5"
+      }
+    ]
+  ],
   /*
    ** Nuxt.js modules
    */
@@ -46,22 +53,22 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {},
+    extend(config, ctx) {}
   },
   fontawesome: {
     imports: [
       {
         set: "@fortawesome/free-solid-svg-icons",
-        icons: ["fas"],
+        icons: ["fas"]
       },
       {
         set: "@fortawesome/free-brands-svg-icons",
-        icons: ["fab"],
+        icons: ["fab"]
       },
       {
         set: "@fortawesome/free-regular-svg-icons",
-        icons: ["far"],
-      },
-    ],
-  },
+        icons: ["far"]
+      }
+    ]
+  }
 };

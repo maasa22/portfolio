@@ -9,7 +9,6 @@
           <h6>
             {{award.title}}
             <a v-if="award.link!=''" :href="award.link" target="_blank">[award page]</a>
-            <a v-else>[award page]</a>
           </h6>
           <p v-if="award.detail!=''">{{award.detail}}</p>
         </div>

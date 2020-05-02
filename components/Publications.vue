@@ -26,9 +26,9 @@ export default {
           publications: [
             {
               title:
-                "Hiroaki Masaki, Kengo Shibata, Shui Hoshino, Takahiro Ishihama, Nagayuki Saito, and Koji Yatani. Exploring Nudge Designs to Help Adolescent SNS Users Avoid Privacy and Safety Threats. To appear in proceedings of ACM CHI Conference on Human Factors in Computing Systems, 2020.",
+                "Hiroaki Masaki, Kengo Shibata, Shui Hoshino, Takahiro Ishihama, Nagayuki Saito, and Koji Yatani. 2020. Exploring Nudge Designs to Help Adolescent SNS Users Avoid Privacy and Safety Threats. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI ’20). Association for Computing Machinery, New York, NY, USA, 1–11. DOI:https://doi.org/10.1145/3313831.3376666",
               award: "Honorable Mention Award",
-              link: ""
+              link: "https://dl.acm.org/doi/abs/10.1145/3313831.3376666"
             }
           ]
         },

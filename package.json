@@ -20,5 +20,7 @@
     "nuxt": "^2.0.0",
     "nuxt-fontawesome": "^0.4.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.2.3"
+  }
 }
