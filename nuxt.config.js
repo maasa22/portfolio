@@ -14,6 +14,10 @@ export default {
         content:
           process.env.npm_package_description ||
           "A personal web page of Hiroaki Masaki"
+      },
+      {
+        name: "google-site-verification",
+        content: "_q1Bfa96QreKjqJ8H3VR4o-16DbpN6hkYiMhriSNuvI"
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/h.msk.ico" }]
