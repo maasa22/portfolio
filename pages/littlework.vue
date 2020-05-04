@@ -35,6 +35,11 @@
           </b-card>
         </b-card-group>
       </div>
+      <h4>Certificates</h4>
+      <ul>
+        <li>Google デジタルマーケティングの基礎 認定資格</li>
+        <li>Google広告 ディスプレイ広告 認定資格（expired in May 2021）</li>
+      </ul>
     </div>
     <footer />
   </div>

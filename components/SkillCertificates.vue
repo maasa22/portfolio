@@ -4,7 +4,7 @@
       <h2 class="section_title">Skills and Certificates</h2>
     </div>
     <ul>
-      <li>programming: Vue.js, HTML, CSS, Python, SQL</li>
+      <li>Programming: Vue.js, HTML, CSS, Python, SQL</li>
       <!-- <li>tools: Sketch, Microsoft Office</li> -->
       <li>Certificates: TOEIC 955</li>
       <!-- TOEFL: ___ -->
