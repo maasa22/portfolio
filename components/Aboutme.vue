@@ -58,6 +58,11 @@ export default {
           id: 5,
           url: "mailto:masaki.hrak@gmail.com",
           icon: ["far", "envelope"]
+        },
+        {
+          id: 6,
+          url: "https://scholar.google.co.jp/citations?user=9XUMvA4AAAAJ",
+          icon: ["fas", "user-graduate"]
         }
       ]
     };
