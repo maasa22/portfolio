@@ -49,7 +49,7 @@
                 href="https://icofont.com/"
               >icofont</a> for rich menus.
             </b-card-text>
-            <!-- <b-button href="https://line.me/R/ti/p/@084tokfc" variant="primary">Go to app</b-button> -->
+            <b-button href="https://line.me/R/ti/p/@084tokfc" variant="primary">Go to app</b-button>
           </b-card>
         </b-card-group>
       </div>
