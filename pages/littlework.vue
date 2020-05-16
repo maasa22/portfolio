@@ -29,9 +29,8 @@
             class="mb-2"
           >
             <b-card-sub-title>glide, pwa, no code</b-card-sub-title>
-            <b-card-text>This app shows a list of my favorite curry restaurants in Jinbocho. This app was built in 1 hour.</b-card-text>
-
-            <b-button href="https://curry-jinbo.glideapp.io/" variant="primary">Go to app</b-button>
+            <b-card-text>This app shows a list of my favorite curry restaurants in Jinbocho. This app was built in a few hours.</b-card-text>
+            <b-button href="https://jinbo-curry.glideapp.io/" variant="primary">Go to app</b-button>
           </b-card>
         </b-card-group>
       </div>
@@ -52,7 +51,7 @@ export default {
   data() {
     return {
       portfolio_img: require("~/assets/work/portfolio.png"),
-      curryJinbo_img: require("~/assets/work/jinbo-curry.png")
+      curryJinbo_img: require("~/assets/work/curry-jinbo.png")
     };
   },
   components: {
