@@ -21,7 +21,7 @@
             <b-button href="/" variant="primary">Go to top page</b-button>
           </b-card>
           <b-card
-            title="神保町カレー一覧アプリ"
+            title="神保町カレーアプリ"
             :img-src="curryJinboGlide_img"
             img-alt="Image"
             img-top
@@ -42,7 +42,7 @@
             style="max-width: 20rem;"
             class="mb-2"
           >
-            <b-card-sub-title>line bot, python, flask, google app engine</b-card-sub-title>
+            <b-card-sub-title>line bot, python, flask, google app engine, cloud sql, postgresql</b-card-sub-title>
             <b-card-text>
               This app tells users lunch recommendations. Users can ask lunch recommendations by sending chat messages as well as tapping rich menus. I use icons from
               <a
