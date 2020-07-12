@@ -34,22 +34,30 @@
             <b-button href="https://jinbo-curry.glideapp.io/" variant="primary">Go to app</b-button>
           </b-card>
           <b-card
-            title="ランチ提案LINE bot"
-            :img-src="curryJinboLinebot_img"
+            title="新宿ランチ提案LINE bot"
+            :img-src="LinebotShinjuku2_img"
             img-alt="Image"
             img-top
             tag="article"
             style="max-width: 20rem;"
             class="mb-2"
           >
-            <b-card-sub-title>line bot, python, flask, google app engine, cloud sql, postgresql</b-card-sub-title>
+            <b-card-sub-title>line bot, python, flask, postgresql, heroku, (google app engine, cloud sql)</b-card-sub-title>
             <b-card-text>
               This app tells users lunch recommendations. Users can ask lunch recommendations by sending chat messages as well as tapping rich menus. I use icons from
               <a
                 href="https://icofont.com/"
               >icofont</a> for rich menus.
             </b-card-text>
-            <b-button href="https://line.me/R/ti/p/@084tokfc" variant="primary">Go to app</b-button>
+            <a href="https://lin.ee/d5mCfCz">
+              <img
+                src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"
+                alt="友だち追加"
+                height="36"
+                border="0"
+              />
+            </a>
+            <!-- <b-button href="https://line.me/R/ti/p/@084tokfc" variant="primary">Go to app</b-button> -->
           </b-card>
         </b-card-group>
       </div>
@@ -71,7 +79,7 @@ export default {
     return {
       portfolio_img: require("~/assets/work/portfolio.png"),
       curryJinboGlide_img: require("~/assets/work/curry-jinbo-glide.png"),
-      curryJinboLinebot_img: require("~/assets/work/curry-jinbo-linebot.png")
+      LinebotShinjuku2_img: require("~/assets/work/line-bot-shinjuku2.jpg")
     };
   },
   components: {
