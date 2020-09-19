@@ -11,7 +11,7 @@
           I'm
           <b>Hiroaki Masaki(正木 博明)</b>. My research interest lies in
           Human-Computer Interaction(HCI). More specifically, my research
-          focuses on "nugge", well studied in behavioral economics, and mobile
+          focuses on "nudge", well studied in behavioral economics, and mobile
           health. In my spare time, I like listening to radio and manzai,
           watching baseball, participating to marathon, and eating curry.
         </p>
@@ -37,17 +37,17 @@ export default {
         {
           id: 1,
           url: "https://github.com/maasa22",
-          icon: ["fab", "github"]
+          icon: ["fab", "github"],
         },
         {
           id: 2,
           url: "https://www.linkedin.com/in/hiroaki-masaki-3077bb141/",
-          icon: ["fab", "linkedin"]
+          icon: ["fab", "linkedin"],
         },
         {
           id: 3,
           url: "https://www.facebook.com/hiroaki.msk",
-          icon: ["fab", "facebook"]
+          icon: ["fab", "facebook"],
         },
         // {
         //   id: 4,
@@ -57,15 +57,15 @@ export default {
         {
           id: 5,
           url: "mailto:masaki.hrak@gmail.com",
-          icon: ["far", "envelope"]
+          icon: ["far", "envelope"],
         },
         {
           id: 6,
           url: "https://scholar.google.co.jp/citations?user=9XUMvA4AAAAJ",
-          icon: ["fas", "user-graduate"]
-        }
-      ]
+          icon: ["fas", "user-graduate"],
+        },
+      ],
     };
-  }
+  },
 };
 </script>

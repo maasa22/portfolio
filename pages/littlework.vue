@@ -21,19 +21,6 @@
             <b-button href="/" variant="primary">Go to top page</b-button>
           </b-card>
           <b-card
-            title="神保町カレーアプリ"
-            :img-src="curryJinboGlide_img"
-            img-alt="Image"
-            img-top
-            tag="article"
-            style="max-width: 20rem;"
-            class="mb-2"
-          >
-            <b-card-sub-title>glide, pwa, no code</b-card-sub-title>
-            <b-card-text>This app shows a list of my favorite curry restaurants in Jinbocho. This app was built in a few hours.</b-card-text>
-            <b-button href="https://jinbo-curry.glideapp.io/" variant="primary">Go to app</b-button>
-          </b-card>
-          <b-card
             title="新宿ランチ提案LINE bot"
             :img-src="LinebotShinjuku2_img"
             img-alt="Image"
@@ -59,12 +46,24 @@
             </a>
             <!-- <b-button href="https://line.me/R/ti/p/@084tokfc" variant="primary">Go to app</b-button> -->
           </b-card>
+          <b-card
+            title="神保町カレーアプリ"
+            :img-src="curryJinboGlide_img"
+            img-alt="Image"
+            img-top
+            tag="article"
+            style="max-width: 20rem;"
+            class="mb-2"
+          >
+            <b-card-sub-title>glide, pwa, no code</b-card-sub-title>
+            <b-card-text>This app shows a list of my favorite curry restaurants in Jinbocho. This app was built in a few hours.</b-card-text>
+            <b-button href="https://jinbo-curry.glideapp.io/" variant="primary">Go to app</b-button>
+          </b-card>
         </b-card-group>
       </div>
       <h4>Certificates</h4>
-      <ul>
-        <li>Google デジタルマーケティングの基礎 認定資格</li>
-        <li>Google広告 ディスプレイ広告 認定資格（expired in May 2021）</li>
+      <ul v-for="(certificate, index) in certificates" :key="index">
+        <li>{{ certificate }}</li>
       </ul>
     </div>
     <footer />
@@ -79,11 +78,17 @@ export default {
     return {
       portfolio_img: require("~/assets/work/portfolio.png"),
       curryJinboGlide_img: require("~/assets/work/curry-jinbo-glide.png"),
-      LinebotShinjuku2_img: require("~/assets/work/line-bot-shinjuku2.jpg")
+      LinebotShinjuku2_img: require("~/assets/work/line-bot-shinjuku2.jpg"),
+      certificates: [
+        "Google デジタルマーケティングの基礎 認定資格",
+        "Google広告 ディスプレイ広告 認定資格（expired in May 2021）",
+        // "学生支援機構 大学院第一種奨学金における特に優れた業績による返還免除 半額免除",
+        // "博報堂プロダクツ ハッチングフェス アイデアソン アナリシス部門優勝 2018.10.20",
+      ],
     };
   },
   components: {
-    Navbar
-  }
+    Navbar,
+  },
 };
 </script>

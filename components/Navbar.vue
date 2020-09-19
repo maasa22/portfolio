@@ -23,9 +23,10 @@ export default {
         { title: "Experience", path: "/#Experience" },
         { title: "Publications", path: "/#Publications" },
         { title: "Awards", path: "/#Awards" },
-        { title: "misc.", path: "/littlework" }
-      ]
+        { title: "Skills", path: "/#Skills" },
+        { title: "misc.", path: "/littlework" },
+      ],
     };
-  }
+  },
 };
 </script>

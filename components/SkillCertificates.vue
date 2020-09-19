@@ -1,12 +1,30 @@
 <template>
-  <div id="SkillCertificates" class="skill section">
+  <div id="Skills" class="skills section">
     <div class="row">
       <h2 class="section_title">Skills and Certificates</h2>
     </div>
     <ul>
-      <li>Programming: Vue.js, HTML, CSS, Python, SQL</li>
+      <li>
+        Programming
+        <ul>
+          <li>Frontend: Vue.js</li>
+          <li>Backend: Firebase</li>
+          <li>Data processing and other: Python, SQL</li>
+        </ul>
+      </li>
       <!-- <li>tools: Sketch, Microsoft Office</li> -->
-      <li>Certificates: TOEIC 955</li>
+      <li>
+        Certificates
+        <ul>
+          <li>TOEIC 955</li>
+        </ul>
+      </li>
+      <li>
+        Interests
+        <ul>
+          <li>online advertising, nudge/behavioral economics, mobile health</li>
+        </ul>
+      </li>
       <!-- TOEFL: ___ -->
     </ul>
     <!-- <p>amazon wish list : ____</p> -->

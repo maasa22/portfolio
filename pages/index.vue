@@ -1,7 +1,7 @@
 <template>
   <div>
-    <navbar class="sticky-top" />
-    <topimg />
+    <Navbar class="sticky-top" />
+    <Topimg />
     <div class="container">
       <Aboutme />
       <Experience />
@@ -30,8 +30,8 @@ export default {
     Experience,
     Publications,
     Awards,
-    SkillCertificates
-  }
+    SkillCertificates,
+  },
 };
 </script>
 
