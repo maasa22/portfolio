@@ -45,8 +45,8 @@
             class="mb-2"
           >
             <b-card-sub-title
-              >vue, nuxt, firebase(hosting, cloud firestore, google login,
-              storage)</b-card-sub-title
+              >vue, nuxt, vuetify, firebase(hosting, cloud firestore, google
+              login, storage)</b-card-sub-title
             >
             <b-card-text>
               You can search language partners and send likes in this web app.
@@ -67,7 +67,9 @@
             style="max-width: 20rem"
             class="mb-2"
           >
-            <b-card-sub-title>vue, nuxt, google app engine</b-card-sub-title>
+            <b-card-sub-title
+              >vue, nuxt, bootstrap, google app engine</b-card-sub-title
+            >
             <b-card-text>This site.</b-card-text>
 
             <b-button href="/" variant="primary">Go to top page</b-button>
@@ -113,15 +115,15 @@ export default {
       matchingApp_img: require("~/assets/work/matching-app.png"),
       certificates: [
         "Google デジタルマーケティングの基礎 認定資格",
-        "Google広告 ディスプレイ広告 認定資格（expired in May 2021）",
+        "Google広告 ディスプレイ広告 認定資格（expired in May 2021）"
         // "学生支援機構 大学院第一種奨学金における特に優れた業績による返還免除 半額免除",
         // "博報堂プロダクツ ハッチングフェス アイデアソン アナリシス部門優勝 2018.10.20",
-      ],
+      ]
     };
   },
   components: {
-    Navbar,
-  },
+    Navbar
+  }
 };
 </script>
 <style scoped>
