@@ -22,7 +22,10 @@
       <li>
         Interests
         <ul>
-          <li>online advertising, nudge/behavioral economics, mobile health</li>
+          <li>
+            product management, online advertising, nudge/behavioral economics,
+            and mobile health.
+          </li>
         </ul>
       </li>
       <!-- TOEFL: ___ -->

@@ -4,13 +4,15 @@
       <h2 class="section_title">Awards</h2>
     </div>
     <ul>
-      <li v-for="(award,index) in awards_list" :key="index">
+      <li v-for="(award, index) in awards_list" :key="index">
         <div>
           <h6>
-            {{award.title}}
-            <a v-if="award.link!=''" :href="award.link" target="_blank">[award page]</a>
+            {{ award.title }}
+            <a v-if="award.link != ''" :href="award.link" target="_blank"
+              >[award page]</a
+            >
           </h6>
-          <p v-if="award.detail!=''">{{award.detail}}</p>
+          <p v-if="award.detail != ''">{{ award.detail }}</p>
         </div>
       </li>
     </ul>
@@ -28,20 +30,20 @@ export default {
           link:
             "https://chi2020.acm.org/for-attendees/chi-2020-best-papers-honourable-mentions/",
           detail:
-            " (CHI 2020はヒューマン・コンピュータ・インタラクション分野最高峰の国際会議であり，投稿された論文の中から特に優れた上位5%にこの賞が送られる．)"
+            " (CHI 2020はヒューマン・コンピュータ・インタラクション分野最高峰の国際会議であり，投稿された論文の中から特に優れた上位5%にこの賞が送られる．)",
         },
         {
-          title: "2019年度 東京大学大学院学生情報学府 優秀修士論文 専攻長賞",
+          title: "2019年度 東京大学大学院学際情報学府 優秀修士論文 専攻長賞",
           link: "",
-          detail: ""
+          detail: "",
         },
         {
           title: "情報処理学会第186回HCI研究会 学生奨励賞",
           link: "http://www.sighci.jp/contents/page/news",
-          detail: ""
-        }
-      ]
+          detail: "",
+        },
+      ],
     };
-  }
+  },
 };
 </script>

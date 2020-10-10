@@ -7,34 +7,23 @@
       <div class="littleworks">
         <b-card-group columns>
           <b-card
-            title="Portfolio site"
-            :img-src="portfolio_img"
-            img-alt="Image"
-            img-top
-            tag="article"
-            style="max-width: 20rem;"
-            class="mb-2"
-          >
-            <b-card-sub-title>vue, nuxt, google app engine</b-card-sub-title>
-            <b-card-text>This site.</b-card-text>
-
-            <b-button href="/" variant="primary">Go to top page</b-button>
-          </b-card>
-          <b-card
             title="新宿ランチ提案LINE bot"
             :img-src="LinebotShinjuku2_img"
             img-alt="Image"
             img-top
             tag="article"
-            style="max-width: 20rem;"
+            style="max-width: 20rem"
             class="mb-2"
           >
-            <b-card-sub-title>line bot, python, flask, postgresql, heroku, (google app engine, cloud sql)</b-card-sub-title>
+            <b-card-sub-title
+              >line bot, python, flask, postgresql, heroku, (google app engine,
+              cloud sql)</b-card-sub-title
+            >
             <b-card-text>
-              This app tells users lunch recommendations. Users can ask lunch recommendations by sending chat messages as well as tapping rich menus. I use icons from
-              <a
-                href="https://icofont.com/"
-              >icofont</a> for rich menus.
+              This app tells users lunch recommendations. Users can ask lunch
+              recommendations by sending chat messages as well as tapping rich
+              menus. I use icons from
+              <a href="https://icofont.com/">icofont</a> for rich menus.
             </b-card-text>
             <a href="https://lin.ee/d5mCfCz">
               <img
@@ -47,17 +36,59 @@
             <!-- <b-button href="https://line.me/R/ti/p/@084tokfc" variant="primary">Go to app</b-button> -->
           </b-card>
           <b-card
+            title="言語交換マッチングwebアプリ "
+            :img-src="matchingApp_img"
+            img-alt="Image"
+            img-top
+            tag="article"
+            style="max-width: 20rem"
+            class="mb-2"
+          >
+            <b-card-sub-title
+              >vue, nuxt, firebase(hosting, cloud firestore, google login,
+              storage)</b-card-sub-title
+            >
+            <b-card-text>
+              You can search language partners and send likes in this web app.
+              If you get matched, you can chat with him/her.
+            </b-card-text>
+            <b-button
+              href="https://language-partners-web.web.app"
+              variant="primary"
+              >Go to app</b-button
+            >
+          </b-card>
+          <b-card
+            title="Portfolio site"
+            :img-src="portfolio_img"
+            img-alt="Image"
+            img-top
+            tag="article"
+            style="max-width: 20rem"
+            class="mb-2"
+          >
+            <b-card-sub-title>vue, nuxt, google app engine</b-card-sub-title>
+            <b-card-text>This site.</b-card-text>
+
+            <b-button href="/" variant="primary">Go to top page</b-button>
+          </b-card>
+          <b-card
             title="神保町カレーアプリ"
             :img-src="curryJinboGlide_img"
             img-alt="Image"
             img-top
             tag="article"
-            style="max-width: 20rem;"
+            style="max-width: 20rem"
             class="mb-2"
           >
             <b-card-sub-title>glide, pwa, no code</b-card-sub-title>
-            <b-card-text>This app shows a list of my favorite curry restaurants in Jinbocho. This app was built in a few hours.</b-card-text>
-            <b-button href="https://jinbo-curry.glideapp.io/" variant="primary">Go to app</b-button>
+            <b-card-text
+              >This app shows a list of my favorite curry restaurants in
+              Jinbocho. This app was built in a few hours.</b-card-text
+            >
+            <b-button href="https://jinbo-curry.glideapp.io/" variant="primary"
+              >Go to app</b-button
+            >
           </b-card>
         </b-card-group>
       </div>
@@ -79,6 +110,7 @@ export default {
       portfolio_img: require("~/assets/work/portfolio.png"),
       curryJinboGlide_img: require("~/assets/work/curry-jinbo-glide.png"),
       LinebotShinjuku2_img: require("~/assets/work/line-bot-shinjuku2.jpg"),
+      matchingApp_img: require("~/assets/work/matching-app.png"),
       certificates: [
         "Google デジタルマーケティングの基礎 認定資格",
         "Google広告 ディスプレイ広告 認定資格（expired in May 2021）",
@@ -92,3 +124,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+image {
+  border: 10px;
+}
+</style>

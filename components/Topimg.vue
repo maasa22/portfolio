@@ -1,6 +1,13 @@
 <template>
   <div>
-    <b-card overlay :img-src="himeji_img" img-alt="Card Image" text-variant="white" title sub-title>
+    <b-card
+      overlay
+      :img-src="himeji_img"
+      img-alt="Card Image"
+      text-variant="white"
+      title
+      sub-title
+    >
       <b-card-text>
         Portfoio of h.msk.
         <!-- <br />Upadated : 2020/4/2 -->
