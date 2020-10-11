@@ -13,6 +13,7 @@
             >
           </h6>
           <p v-if="award.detail != ''">- {{ award.detail }}</p>
+          <p v-if="award.detail2 != ''">- {{ award.detail2 }}</p>
         </div>
       </li>
     </ul>
@@ -37,13 +38,15 @@ export default {
         {
           title: "Department Dean Award on Master Thesis",
           link: "",
-          detail: "2019年度 東京大学大学院学際情報学府 優秀修士論文 専攻長賞"
+          detail: "2019年度 東京大学大学院学際情報学府 優秀修士論文 専攻長賞",
+          detail2: ""
         },
         {
           title:
             "Student Encouragement Award at IPSJ(Information Processing Society of Japan) Conference",
           link: "http://www.sighci.jp/contents/page/news",
-          detail: "情報処理学会 第186回HCI研究会 学生奨励賞"
+          detail: "情報処理学会 第186回HCI研究会 学生奨励賞",
+          detail2: ""
         }
       ]
     };

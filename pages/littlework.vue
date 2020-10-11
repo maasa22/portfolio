@@ -7,7 +7,7 @@
       <div class="littleworks">
         <b-card-group columns>
           <b-card
-            title="新宿ランチ提案LINE bot"
+            title="Shinjuku lunch recommendation LINE bot"
             :img-src="LinebotShinjuku2_img"
             img-alt="Image"
             img-top
@@ -36,7 +36,7 @@
             <!-- <b-button href="https://line.me/R/ti/p/@084tokfc" variant="primary">Go to app</b-button> -->
           </b-card>
           <b-card
-            title="言語交換マッチングwebアプリ "
+            title="Matching web app for language learning"
             :img-src="matchingApp_img"
             img-alt="Image"
             img-top
@@ -50,7 +50,7 @@
             >
             <b-card-text>
               You can search language partners and send likes in this web app.
-              If you get matched, you can chat with him/her.
+              When you get matched, you can chat with him/her.
             </b-card-text>
             <b-button
               href="https://language-partners-web.web.app"
@@ -75,7 +75,7 @@
             <b-button href="/" variant="primary">Go to top page</b-button>
           </b-card>
           <b-card
-            title="神保町カレーアプリ"
+            title="Jinbocho curry apps"
             :img-src="curryJinboGlide_img"
             img-alt="Image"
             img-top
@@ -94,10 +94,10 @@
           </b-card>
         </b-card-group>
       </div>
-      <h4>Certificates</h4>
-      <ul v-for="(certificate, index) in certificates" :key="index">
+      <!-- <h4>Certificates</h4> -->
+      <!-- <ul v-for="(certificate, index) in certificates" :key="index">
         <li>{{ certificate }}</li>
-      </ul>
+      </ul> -->
     </div>
     <footer />
   </div>
@@ -129,5 +129,9 @@ export default {
 <style scoped>
 image {
   border: 10px;
+}
+
+h4 {
+  margin: 20px 0px 10px 0px;
 }
 </style>
