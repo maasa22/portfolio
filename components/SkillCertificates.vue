@@ -23,8 +23,7 @@
         Interests
         <ul>
           <li>
-            product management, online advertising, nudge/behavioral economics,
-            and mobile health.
+            product management, online advertising, nudge, and mobile health.
           </li>
         </ul>
       </li>

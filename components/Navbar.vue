@@ -5,9 +5,17 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <div v-for="(item, index) in items" :key="index">
+          <b-nav-item-dropdown text="Top" right>
+            <div v-for="(item, index) in items" :key="index">
+              <b-dropdown-item :to="item.path">{{
+                item.title
+              }}</b-dropdown-item>
+            </div>
+          </b-nav-item-dropdown>
+          <!-- <div v-for="(item, index) in items" :key="index">
             <b-nav-item :to="item.path">{{ item.title }}</b-nav-item>
-          </div>
+          </div> -->
+          <b-nav-item to="/littlework">Littlework</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -20,13 +28,14 @@ export default {
     return {
       index: "/#",
       items: [
+        { title: "Top", path: "/#" },
         { title: "Experience", path: "/#Experience" },
         { title: "Publications", path: "/#Publications" },
         { title: "Awards", path: "/#Awards" },
-        { title: "Skills", path: "/#Skills" },
-        { title: "misc.", path: "/littlework" },
-      ],
+        { title: "Skills", path: "/#Skills" }
+        // { title: "Littlework", path: "/littlework" }
+      ]
     };
-  },
+  }
 };
 </script>
