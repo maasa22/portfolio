@@ -5,22 +5,22 @@
     </div>
     <ul>
       <li>
-        Programming
+        programming
         <ul>
-          <li>Frontend: Vue.js</li>
-          <li>Backend: Firebase</li>
-          <li>Data processing and other: Python, SQL</li>
+          <li>frontend: vue.js</li>
+          <li>backend: firebase</li>
+          <li>data processing and other: python, sql</li>
         </ul>
       </li>
       <!-- <li>tools: Sketch, Microsoft Office</li> -->
       <li>
-        Certificates
+        certificates
         <ul>
-          <li>TOEIC 955</li>
+          <li>toeic 955</li>
         </ul>
       </li>
       <li>
-        Interests
+        interests
         <ul>
           <li>
             product management, online advertising, nudge, and mobile health.
