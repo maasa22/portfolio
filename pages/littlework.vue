@@ -33,6 +33,9 @@
                 border="0"
               />
             </a>
+            <b-button href="https://youtu.be/-9m7s1s1JME" variant="danger"
+              >Watch demo</b-button
+            >
             <!-- <b-button href="https://line.me/R/ti/p/@084tokfc" variant="primary">Go to app</b-button> -->
           </b-card>
           <b-card
@@ -56,6 +59,9 @@
               href="https://language-partners-web.web.app"
               variant="primary"
               >Go to app</b-button
+            >
+            <b-button href="https://youtu.be/ZWvHAbK58nY" variant="danger"
+              >Watch demo</b-button
             >
           </b-card>
           <b-card
