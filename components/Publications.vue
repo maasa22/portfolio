@@ -40,9 +40,10 @@ export default {
           publications: [
             {
               title:
-                "正木博明，柴田健吾，星野秀偉，石濵嵩博，齋藤長行，矢谷浩司，「若年層SNSユーザに対するプライバシー・安全上の行動に関するナッジの大規模定量調査」（To be appeared）",
+                "正木博明，柴田健吾，星野秀偉，石濵嵩博，齋藤長行，矢谷浩司，「若年層SNSユーザに対するプライバシー・安全上の行動に関するナッジの大規模定量調査」，情報処理学会論文誌 61 (12), 1892-1902",
               award: "",
-              link: ""
+              link:
+                "https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=208853&item_no=1"
             }
           ]
         },
